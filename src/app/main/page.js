@@ -112,6 +112,7 @@ const page = () => {
             <Image src={reminders} alt="envelope" className='enveImg' />
           </div>
         </div>
+        update
       </section>
 
     </MainWrap>
