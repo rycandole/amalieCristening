@@ -41,8 +41,8 @@ function Book() {
         <div className="page-content cover">
           <Image src={Enveloped}
             alt="envelope"
-            // width={370}
-            // height={500}
+            width={370}
+            height={500}
             className='enveImg' />
         </div>
       </div>
