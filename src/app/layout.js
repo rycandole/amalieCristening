@@ -17,32 +17,32 @@ export const metadata = {
 //   );
 // }
 
-const SourGummy = localFont({
+const Spectral = localFont({
   src: [
     {
-      path: "../Utilities/Fonts/Sour_Gummy/static/SourGummy_Expanded-Regular.ttf",
+      path: "../Utilities/Fonts/Spectral/Spectral-Italic.ttf",
       weight: "400",
       style: "normal",
     },
   ],
-  variable: "--font-sour-gummy"
+  variable: "--font-spectral"
 })
 
-const MsMadi = localFont({
+const YellowTail = localFont({
   src: [
     {
-      path: "../Utilities/Fonts/Ms_Madi/MsMadi-Regular.ttf",
+      path: "../Utilities/Fonts/YellowTail/Yellowtail-Regular.ttf",
       weight: "400",
       style: "normal",
     },
   ],
-  variable: "--font-ms-madi"
+  variable: "--font-yellowTail"
 })
 
 export default function RootLayout({ children }) {
   return (
     <html>
-      <body className={`${MsMadi.variable}`}>{children}</body>
+      <body className={`${YellowTail.variable} ${Spectral.variable}`}>{children}</body>
     </html>
   )
 }
