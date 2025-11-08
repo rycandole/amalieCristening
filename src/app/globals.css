@@ -37,9 +37,14 @@ a {
 }
  */
 
-.ms-madi {
-  font-family: var(--font-ms-madi);
+.spectral {
+  font-family: var(--font-spectral);
 }
+
+.yellowTail {
+  font-family: var(--font-yellowTail);
+}
+
 
 * {
   box-sizing: border-box;
@@ -100,6 +105,8 @@ html {
 .page-content--last {
 
   justify-content: unset;
+  background-image: url("../Utilities//Images/background.jpg");
+  background-size: 100%;
 }
 
 .rsvpLink {
@@ -112,25 +119,72 @@ html {
   justify-content: center;
   align-items: center;
   font-size: 34px;
+  background: white;
+  font-weight: 700;
+  border-radius: 18px;
+  border: 1px solid #F5D9D5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+
 }
 
 .rsvpPage {
   width: 100%;
-  padding: 20px;
-
+  padding: 20px 20px 80px 20px;
 }
 
 .rsvpWrap {
   width: 100%;
-  height: 150px;
-  border: 1px solid #F5D9D5;
+  height: 110px;
+
+
 }
 
 .rsvpTxt {
-
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.mapsLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.mapLinkWrap {
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+
+}
+
+.mapBtn {
+  width: 100%;
+  padding: 12px;
+  cursor: pointer;
+  background-color: #FEF3C4;
+  border: unset;
+  border-radius: 8px;
+}
+
+.mapBtnLink {
+  cursor: pointer;
+  margin: 20px 0 0 0;
+}
+
+.mapLinkImg {
+  margin: 0 0 20px 0;
+
+}
+
+.mapImg {
+
+  border: 1px solid white;
+
 }
 
 .cover {
@@ -155,6 +209,7 @@ html {
   object-fit: contain;
   transition: transform 0.3s ease;
 }
+
 
 .pokemon-container img:hover {
   transform: scale(1.05);
