@@ -123,7 +123,9 @@ html {
   /* font-weight: 700; */
   border-radius: 18px;
   border: 1px solid #F5D9D5;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  box-shadow: 6px 6px 1px 1px rgba(0, 0, 0, 0.5);
+
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
 
 }
@@ -149,6 +151,7 @@ html {
 .mapTitle {
   font-size: 14px;
   height: 60px;
+  margin: 0 0 10px 0;
 }
 
 .mapsLinks {
@@ -174,6 +177,8 @@ html {
   background-color: #FEF3C4;
   border: unset;
   border-radius: 8px;
+  box-shadow: 6px 6px 1px 1px rgba(0, 0, 0, 0.5);
+
 }
 
 .mapBtnLink {
@@ -188,8 +193,8 @@ html {
 
 .mapImg {
 
-  border: 1px solid white;
-
+  border: 8px solid white;
+  border-radius: 8px;
 }
 
 .cover {
