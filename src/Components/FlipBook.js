@@ -88,7 +88,10 @@ function Book() {
                 />
               </div>
               <Link className='mapBtnLink' target="_blank" rel="noopener noreferrer" href="https://google.com/maps/place/Our+Lady+of+Mount+Carmel+Parish+-+Project+6+(Diocese+of+Cubao)/@14.6637505,121.0413698,17.25z/data=!4m6!3m5!1s0x3397b718ecd6d7c9:0x30b3057cbbbe0319!8m2!3d14.6624518!4d121.0414896!16s%2Fg%2F1tf6jr6g?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D">
-                <button className='mapBtn spectral'>Pin location here</button>
+                <button className='mapBtn spectral'>Pin location here
+                  <div className="circle-small"></div>
+
+                </button>
 
               </Link>
             </div>
@@ -106,7 +109,10 @@ function Book() {
                 />
               </div>
               <Link className='mapBtnLink' target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/BMB+Training+Center/@14.6520089,121.042314,17.25z/data=!4m14!1m7!3m6!1s0x3397b7059eefe101:0x5271f95cbf47428a!2sNinoy+Aquino+Parks+and+Wildlife+Center!8m2!3d14.6520871!4d121.0452732!16s%2Fm%2F05sxpms!3m5!1s0x3397b724344d2c11:0x3741eb207d250da1!8m2!3d14.6525804!4d121.0422841!16s%2Fg%2F11f6rb0fsq?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D">
-                <button className='mapBtn spectral'>Pin location here</button>
+                <button className='mapBtn spectral'>Pin location here
+                  <div className="circle-small"></div>
+
+                </button>
 
               </Link>
             </div>
