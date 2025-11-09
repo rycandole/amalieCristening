@@ -14,6 +14,7 @@ import rsvp from "@/Utilities/Images/rsvp.jpg"
 import dresscode from "@/Utilities/Images/dresscode.jpg"
 import church from "@/Utilities/Images/church.png"
 import wildlife from "@/Utilities/Images/wildlife.png"
+import PromptBox from './PromptBox';
 
 function Book() {
 
@@ -39,6 +40,9 @@ function Book() {
     >
       <div className="page" style={{ background: 'transparent' }}>
         <div className="page-content cover">
+          <div>
+            <PromptBox />
+          </div>
           <Image src={Enveloped}
             alt="envelope"
             width={370}
@@ -67,6 +71,9 @@ function Book() {
             </div></div>
           <div className='mapsLinks'>
             <div className='mapLinkWrap'>
+              <div className='yellowTail mapTitle'>
+                Our lady of Mt. Carmel Parish
+              </div>
               <div className='mapLinkImg'>
                 <Image
 
@@ -83,6 +90,9 @@ function Book() {
               </Link>
             </div>
             <div className='mapLinkWrap'>
+              <div className='yellowTail mapTitle'>
+                Ninoy Aquino Parks and Wildlife Center (BMB training center bldg)
+              </div>
               <div className='mapLinkImg'>
                 <Image
                   src={wildlife}
