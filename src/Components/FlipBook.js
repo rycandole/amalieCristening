@@ -66,9 +66,12 @@ function Book() {
           <div className='rsvpPage'>
             <div className='rsvpWrap'>
               <Link className='rsvpLink ' target="_blank" rel="noopener noreferrer" href="https://forms.gle/rJ8zohpkrAjBQDo5A" >
-                <span className='rsvpTxt yellowTail'>Please RSVP here</span>
+                <span className='rsvpTxt yellowTail'>Click here for RSVP </span>
               </Link>
-            </div></div>
+              <div className="circle"></div>
+
+            </div>
+          </div>
           <div className='mapsLinks'>
             <div className='mapLinkWrap'>
               <div className='yellowTail mapTitle'>
